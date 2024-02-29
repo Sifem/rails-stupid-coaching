@@ -1,0 +1,13 @@
+<h1 class="text-info" >Stupid Coaching</h1>
+
+<blockquote class="card w-25">
+<p>--You: </p>
+<%= params[:question] %>
+</blockquote>
+
+<div class="card w-25">
+<p>--Your Coach: </p>
+<%= @answer %>
+</div>
+
+<p><%= link_to 'Ask a new question', ask_path %></p>
